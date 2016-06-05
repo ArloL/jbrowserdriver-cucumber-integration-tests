@@ -21,7 +21,7 @@ import cucumber.api.java.en.Then;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = JbrowserdriverCucumberIntegrationTestsApplication.class, loader = SpringApplicationContextLoader.class)
 @WebIntegrationTest(randomPort = true)
-public class MyStepdefs {
+public class CucumberStepDefinitions {
 
 	@Value("${local.server.port}")
 	private int port;
